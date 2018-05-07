@@ -81,7 +81,7 @@
 	author = "Amon Rapp and Federica Cena",
 	keywords = "Personal informatics, Quantified self, Diary study, Design strategies"
 }
-@Comment{jabref-meta: databaseType:bibtex;}
+
 
 @inproceedings{Khovanskaya:2013:EKY:2470654.2466467,
 	author = {Khovanskaya, Vera and Baumer, Eric P.S. and Cosley, Dan and Voida, Stephen and Gay, Geri},
@@ -99,6 +99,25 @@
 	publisher = {ACM},
 	address = {New York, NY, USA},
 	keywords = {critical design, design strategies, personal informatics},
-} 
+}
 
+@book{carrithers1985category,
+	title={The category of the person: Anthropology, philosophy, history},
+	author={Carrithers, Michael and Collins, Steven and Lukes, Steven},
+	year={1985},
+	publisher={Cambridge University Press}
+}
 
+@Article{Duportail2017,
+  author  = {Duportail, Judith},
+  title   = {I asked Tinder for my data. It sent me 800 pages of my deepest, darkest secrets},
+  journal = {The Guardian},
+  year    = {2017},
+  month   = sep,
+  url     = {https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold},
+}
+
+@Electronic{,
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
