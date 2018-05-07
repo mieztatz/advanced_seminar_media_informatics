@@ -15,6 +15,7 @@
 \usepackage{times}
 \usepackage[hyphens]{url}
 \usepackage{float}
+\usepackage[nolist]{acronym}
 
 \usepackage[backend=bibtex, style=numeric, isbn=true, doi=true, maxnames=99]{biblatex}
 \addbibresource{literature.bib}
@@ -23,6 +24,10 @@
 \graphicspath{{img/}} 
 
 \normalfont
+
+\begin{acronym}[Bash]
+	\acro{QR}{Quantified Relationship}
+\end{acronym}
 
 %% Paper title.
 
@@ -42,7 +47,7 @@
 
 %% Abstract section.
 \abstract{
-Sum up your work and the ideas behind it in 150 to 250 words.
+ 
 } % end of abstract
 
 %% Keywords that describe your work.
@@ -54,7 +59,7 @@ Sum up your work and the ideas behind it in 150 to 250 words.
 
 \begin{document}
 
-\firstsection{Problem Statement}
+\firstsection{Introduction}
 
 \maketitle
 
@@ -64,22 +69,13 @@ Sum up your work and the ideas behind it in 150 to 250 words.
 % and subsections! 
 %
 % ------------------------------------------------------------------------------
-Nowadays many people are engaging in self-tracking their body data. They are tracking the data, and also they are sharing these with other people, like friends or like-minded people. There are so many different types of data, which we can track. In this work, the intimate data of our body or rather of our life will be considered. Therefore, the type of intimate data should be defined. What data is perceived as intimate and in what circumstances?
-Why do people do track intimate data?
-What do they do with it? Tracking, storing, sharing (with whom?) and discussing (with whom)? Do they overtrust this data? How do you perceive these?
-
-Im Zeitalter der Digitalisierung stehen viele neue Möglichkeiten zur Verfügung, sich selbst und das Leben wahrzunehmen. Self-tracking und Quantifiying wird heute von vielen in unterschiedlichsten Formen genutzt. Dafür werden digitale "'Helfer"' genutzt, die das möglich machen. Es gibt viele Arbeiten und Veröffentlichungen über das Thema, diese stehen allerdings vorwiegend im Fokus des Designs solcher "'Helferlein"' \cite{doi:10.1080/13691058.2014.920528}. Diese Helferlein sammeln zum Teil sehr viele Daten, und einige dieser Daten sind als besonder provate bzw. intim einzuordnen. Aber wie nehmen die Personen überhaupt intime Daten wahr? Und unter welchen Umständen. Des weitern gilt zu klären, warum die Leute überhaupt ihre Daten aufzeichnen, und was sie mit diesen Daten machen.
-What data is perceived as intimate? In what circumstances?
-Why do people track intimate data?
-What do they do with it? Tracking, storing, sharing (with
-whom?) and discussing (with whom?)
-
-
-\section{Introduction}
-Intimate data are pervieced very different form people. First of all, it is an cultural aspect, and depends on what society think about.
+In century of digitalization there are many opportunities offered to perceive the self and own life in a different way as before. Self-tracking and quantifying is commonly used. Nowadays many people are engaging in self-tracking their body data. They are tracking the data, and also sharing these with other people, like friends or like-minded people. But there are many different types of data, which we can track. Such data like heartbeat or sleeping pattern does not seem to be too intimate when tracking and sharing, but how about data in intimate relationships and sexual behaviorism? In this work, the tracking and sharing of intimate data from our body or rather about our life will be considered. Therefore, the type of intimate data should be defined at first. What data is perceived as intimate and in what circumstances? Farther it will be investigate why people does tracking intimate data, and what they do with it. With whom do they sharing and discussing their intimate data? And finally, it will  be discussed if they over-trust this tracked data and how they perceive these.
 
 
 \section{Related Work}
+\cite{doi:10.1080/13691058.2014.920528} shows an critical analysis of a special type of digital health care device, such as self tracking technologies for tracking and sharing users sexual and reproductive activities and functions. Some of these smart phone apps available in the Apple App Store and also the Google play store are investigated of their sociocultural, ethical and political implications. It is show that such apps emerging ethical and privacy implications, and 
+
+In \cite{doi:10.1080/15265161.2017.1409823} the research is focused on \ac{QR}. In this work a detailed ethical analysis is provided. They authors found eight core objections to \acs{QR} and investigated these critical. They found out that despite criticism, the \acs{QR} tracking technologies can be rated as helpful to support intimate relationships.
 
 \subsection{What data is perceived as intimate? In what circumstances?}
 This question can not be answered so easily. The perceiving what is intimate depends on several factors.
@@ -92,37 +88,11 @@ Due to this, the definition of what is perceived as intimate for people living i
 
 The dating app \textit{Tinder} is well known. It is used worldwide 
 
-
-\begin{enumerate} 
-	\item Kultur und Stand
-	\item Art der Daten
-	\item Gender
-\end{enumerate}
-
-\subsection{Evaluation}
-
-\section{Research Plan}
-
-\begin{table}[H]
-  %% Table captions on top in journal version
-  \caption{Research Plan}
-  \label{tab:vis_accept}
-  \scriptsize
-  \begin{center}
-    \begin{tabular}{ll}
-      Date & Objective \\
-    \hline
-      16.04.2018 &  First Meeting  with supervisors, prepare proposal \\
-      22.04.2018 & Submit final proposal \\
-      08.05.2018 & Submission of first paper draft \\
-      11.05.2018 & Submission of 60 sec. presentation \\
-      29.05 Sub
-	\end{tabular}
-  \end{center}
-\end{table}
-
-
-\section{Risk Analysis}
+\section{Methodology to achieve objectives}
+\section{Evaluation}
+\section{Deviation from proposal}
+\section{Conclusion and future work}
+\section{Achievements}
 
 \printbibliography
 \end{document}
