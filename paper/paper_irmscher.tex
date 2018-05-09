@@ -15,6 +15,7 @@
 \usepackage{times}
 \usepackage[hyphens]{url}
 \usepackage{float}
+\usepackage[hidelinks]{hyperref}
 \usepackage[nolist]{acronym}
 
 \usepackage[backend=bibtex, style=numeric, isbn=true, doi=true, maxnames=99]{biblatex}
@@ -30,13 +31,11 @@
 \end{acronym}
 
 %% Paper title.
-
 \title{Intimate data in Personal Informatics: Tracking, sharing and personal boundaries?}
 
 %% Put your name here
 \author{Diana Irmscher}
 \authorfooter{
-%% change name, course (Media Informatics/Informatics/etc) and email for the footer
 \item
   Diana Irmscher is studying Media Informatics at the University of Munich, Germany, E-mail: d.irmscher@campus.lmu.de
 \item
@@ -47,11 +46,26 @@
 
 %% Abstract section.
 \abstract{
- 
-} % end of abstract
+	% One or two sentences providing a basic introduction to the field, comprehensible to a scientist in any discipline.
+	Self-tracking has become commonplace in the century of digitalization. People are tracking themselves or rather personal information. Moreover, they are storing and sharing this data. 
+	
+	% Two to three sentences of more detailed background, comprehensible to scientists in related disciplines.
+	The Quantifying Self movement has inspired this trend. Today it is possible to track quantifiable data like heartbeat or sleeping pattern, but also "'not measurable"' data like moods, feelings and behaviors, which have a high intrinsic value. Such tracked data can be highly intimate, e.g. data of sexual and reproductive activities or intimate relationship. 
+	
+	% One sentence clearly stating the general problem being addressed by this particular study.
+	In this work, it is considered why people tracking themselves, and storing and also sharing such intimate data.
+	
+	% One sentence summarizing the main result (with the words “here we show” or their equivalent).
+	
+	% Two or three sentences explaining what the main result reveals in direct comparison to what was thought to be the case previously, or how the main result adds to previous knowledge.
+	
+	% One or two sentences to put the results into a more general context.
+	
+	% Two or three sentences to provide a broader perspective, readily comprehensible to a scientist in any discipline, may be included in the first paragraph if the editor considers that the accessibility of the paper is significantly enhanced by their inclusion. Under these circumstances, the length of the paragraph can be up to 300 words. (This example is 190 words without the final section, and 250 words with it).
+}
 
 %% Keywords that describe your work.
-\keywords{Fill, In, Your, Own, Keywords}
+\keywords{self-tracking, self-quantification, personal informatics, intimate data, data ethics, privacy}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%% START OF THE PAPER %%%%%%%%%%%%%%%%%%%%%%
@@ -69,29 +83,81 @@
 % and subsections! 
 %
 % ------------------------------------------------------------------------------
-In century of digitalization there are many opportunities offered to perceive the self and own life in a different way as before. Self-tracking and quantifying is commonly used. Nowadays many people are engaging in self-tracking their body data. They are tracking the data, and also sharing these with other people, like friends or like-minded people. But there are many different types of data, which we can track. Such data like heartbeat or sleeping pattern does not seem to be too intimate when tracking and sharing, but how about data in intimate relationships and sexual behaviorism? In this work, the tracking and sharing of intimate data from our body or rather about our life will be considered. Therefore, the type of intimate data should be defined at first. What data is perceived as intimate and in what circumstances? Farther it will be investigate why people does tracking intimate data, and what they do with it. With whom do they sharing and discussing their intimate data? And finally, it will  be discussed if they over-trust this tracked data and how they perceive these.
+% Move 1: Establishing a Territory
 
+% Step 1: Claiming importance and/or
+% Step 2: Making topic generalization(s) and/or
+% Step 3: Reviewing items of previous research
+In the century of digitalization there are many opportunities offered to perceive the self and own life in a different way as before. Self-tracking and quantifying is commonly used. Nowadays many people are engaged in tracking their data. They are tracking and also sharing this information with other people, like friends or like-minded people. 
+
+% Move 2: Establishing a Niche
+
+% Step 1A: Counter-claiming or
+% Step 1B: Indicating a gap or
+% Step 1C: Question-raising or
+% Step 1D: Continuing a tradition
+
+But there are many different types of data, which can be tracked. Such data like heartbeat or sleeping pattern does not seem to be too intimate when tracking and sharing, but how about data in intimate relationships and sexual behaviors? 
+
+% Move 3: Occupying the Niche
+
+% Step 1A: Outlining purposes or
+% Step 1B: Announcing present research
+In this work, the tracking, storing and sharing of intimate data in personal informatics is investigated.
+Therefore, the following questions will be answered by searching for  literature and studies in this scientific field:
+ \begin{enumerate}
+ 	\item What data is perceived as intimate? In what circumstances?
+ 	\item Why do people track intimate data?
+ 	\item What do they do with, e.g. tracking, storing, sharing and discussing and with whom?
+ 	\begin{enumerate}
+ 		\item Do they over-trust the tracked data?
+ 		\item How do they perceive their tracked data?
+ 	\end{enumerate}
+ \end{enumerate}
+For answering of the mentioned above questions a research of literature and studies on self-tracking is carried out. The answering of the first question is not as easy as it seems. Therefore, it was also searched in news, blogs and other subjective sources, to get an idea of which information are people perceiving as intimate.
+
+% Step 2: Announcing principal findings
+
+% Step 3: Indicating research article structure
+In section \ref{sec:relatedWork} the current state of research in similar topics of self-tracking activities is shown. In section \ref{sec:intimateData} the mentioned above questions are investigated. Each question or rather topic is treated in a separate subsection. The following section \ref{sec:methodology} describe the models and assumptions. In particular, how to answer the partly very subjective questions in general.
+In section \ref{sec:evaluation} the evaluation methodology is described and the results and analyses are presented. In section \ref{sec:conculsion} of this work a summary is given. A short view for future steps is also presented.
 
 \section{Related Work}
-\cite{doi:10.1080/13691058.2014.920528} shows an critical analysis of a special type of digital health care device, such as self tracking technologies for tracking and sharing users sexual and reproductive activities and functions. Some of these smart phone apps available in the Apple App Store and also the Google play store are investigated of their sociocultural, ethical and political implications. It is show that such apps emerging ethical and privacy implications, and 
+\label{sec:relatedWork}
+\cite{doi:10.1080/13691058.2014.920528} shows an critical analysis of a special type of digital health care devices, such as technologies for tracking and sharing users sexual and reproductive activities and functions. Some of these smart-phone apps available in the Apple App Store and also the Google Play Store are investigated of their sociocultural, ethical and political implications. It is shown that such applications emerging ethical and privacy implications, e.g. perpetuate nominative stereotypes and assumptions. It suggests a queering of such technologies and their use.
 
-In \cite{doi:10.1080/15265161.2017.1409823} the research is focused on \ac{QR}. In this work a detailed ethical analysis is provided. They authors found eight core objections to \acs{QR} and investigated these critical. They found out that despite criticism, the \acs{QR} tracking technologies can be rated as helpful to support intimate relationships.
+In \cite{doi:10.1080/15265161.2017.1409823} the research is focused on \ac{QR}. In this work a detailed ethical analysis is provided. The authors found eight core objections to \acs{QR} and investigated these critical. They found out that despite criticism the \acs{QR} tracking technologies can be rated as helpful to support intimate relationships.
 
+In \cite{sjoklint2015complexities} the interplay of technology, data and the self-experience while using self-tracking technology is been investigated. In this work, technology for tracking movement and sleeping activities was used. The investigation shows, that using self tracking devices are not necessary to change behaviors. It is more useful as a re-focusing device. It also shows that the user experiences tends between rational and emotional behaviors when reflecting the tracked data.
+
+In \cite{choe2014understanding} 52 video interviews were taken to understand users, which tend to use self-tracking technologies more than other people do, like share best practices and mistakes through talks, blogging and conferences. The topic of the interview includes, how the users did track themselves and what did they learn. Furthermore, in this work several common pitfalls to self-tracking were found. At the end it is suggested for future research on these pitfalls.
+
+\section{Intimate Data in Personal Informatics}
+\label{sec:intimateData}
 \subsection{What data is perceived as intimate? In what circumstances?}
-This question can not be answered so easily. The perceiving what is intimate depends on several factors.
-In general it has to be differentiated in the culture, how a human is perceiving the self and what is shaping the sociocultural live \cite{carrithers1985category}. It is not possible to consider all well-known cultures in this work, therefore the focus is limited on the scrutiny of the western world or rather civilization. 
+This question can not be answered easily. The perceiving what is intimate depends on several factors.
+In general it has to be differentiated in the culture, how a human is perceiving the self and what is shaping the sociocultural live \cite{carrithers1985category}. It is not possible to consider all well-known cultures in this work, therefore the focus is limited on the scrutiny of the western civilization. 
 
-In the western civilization the privacy takes up a lot of space. Nevertheless, the state of a person in the society is defining the personal perceiving of privacy and intimate data. And the personal view, as well.
-These things can't be defined in a few sentences, the topic is to complex and not measurable. For the individual, intimate data are different.
+In the western civilization privacy takes up a lot of space. Nevertheless, the state of a person in the society is defining the personal perceiving of privacy and intimate data. And the personal view, as well.
+These things can not be defined in a few sentences, the topic is to complex and not measurable. For the individual, the perception of intimate data is different.
 
 Due to this, the definition of what is perceived as intimate for people living in the western civilization, will be shown by the following examples.
 
-The dating app \textit{Tinder} is well known. It is used worldwide 
+The dating app \textit{Tinder} is well known.
 
-\section{Methodology to achieve objectives}
+\subsection{Why do people track intimate data?}
+
+\subsection{What do they do with it?}
+%Tracking, storing, sharing with whom and discussing with whom?
+%Do they overtrust this data? How do they perceive this?
+
+\section{Description of Research}
+\label{sec:methodology}
+% Literatur suchen und analysieren
 \section{Evaluation}
-\section{Deviation from proposal}
+\label{sec:evaluation}
 \section{Conclusion and future work}
+\label{sec:conculsion}
 \section{Achievements}
 
 \printbibliography
