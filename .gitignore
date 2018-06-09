@@ -21,5 +21,8 @@
 *.mtc1
 *.out
 *.synctex.gz
-*-blx.bib
+*.tex.bak
 *.run.xml
+*-blx.bib
+*.bib.bak
+/slides/*
